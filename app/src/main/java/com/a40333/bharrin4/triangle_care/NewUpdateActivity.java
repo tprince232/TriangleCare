@@ -94,9 +94,9 @@ public class NewUpdateActivity extends AppCompatActivity {
         if (((RadioButton) findViewById(R.id.selOutstanding)).isChecked()) {
             nature = "Outstanding";
         } else if (((RadioButton) findViewById(R.id.selSatisfactory)).isChecked()) {
-            nature = "Satisfactoy";
+            nature = "Satisfactory";
         } else if (((RadioButton) findViewById(R.id.selUnsatisfactory)).isChecked()) {
-            nature = "Unsatisfactoy";
+            nature = "Unsatisfactory";
         }
         String patientName = ((EditText)findViewById(R.id.patientNameEt)).getText().toString();
         String comments = ((EditText)findViewById(R.id.commentsEt)).getText().toString();

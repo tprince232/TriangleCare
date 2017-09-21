@@ -10,14 +10,16 @@
         android:title="My Triangle"
         android:layout_weight="1"
         app:showAsAction="always"
-        android:visible="true" />
+        android:visible="true"
+        android:layout_gravity="left"/>
 
     <item android:id="@+id/facilities"
         android:orderInCategory="100"
         android:title="Facilities"
         app:showAsAction="always"
         android:layout_weight="1"
-        android:visible="true" />
+        android:visible="true"
+        android:layout_gravity="center"/>
 
     <!--item android:id="@+id/messages"
         android:orderInCategory="100"
@@ -31,7 +33,7 @@
         android:title="Updates"
         app:showAsAction="always"
         android:layout_weight="1"
-        android:visible="true" />
-
+        android:visible="true"
+        android:layout_gravity="right"/>
 
 </menu>

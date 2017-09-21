@@ -107,7 +107,6 @@ public class FacilityActivity extends ToolBarActivity {
                         facility = al.get(1);
                     }
 
-
                     String pictureName = facility.getPicture();
                     int picID = getResources().getIdentifier(pictureName, "drawable", getPackageName());
                     pic.setImageResource(picID);
