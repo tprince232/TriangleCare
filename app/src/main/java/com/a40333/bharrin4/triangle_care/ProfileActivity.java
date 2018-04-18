@@ -68,6 +68,7 @@ public class ProfileActivity extends ToolBarActivity implements View.OnClickList
         uID = user.getUid();
         email = user.getEmail();
 
+
         setContentView(R.layout.activity_profile);
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -91,6 +92,7 @@ public class ProfileActivity extends ToolBarActivity implements View.OnClickList
                     String facility = (String) messageSnapshot.child("facility").getValue();
                     textViewUserName.setText("Welcome " + name);
                     textViewFacilityName.setText(facility);
+                    textViewFacilityLocation.setText("South Bend, IN");
                     for (DataSnapshot updateSnapshot : messageSnapshot.child("hygieneUpdates").getChildren()) {
 
                         TextView tv1 = new TextView(getApplicationContext());

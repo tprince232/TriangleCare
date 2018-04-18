@@ -13,36 +13,4 @@
     app:contentInsetLeft="0dp"
     app:contentInsetStart="0dp">
 
-    <!--menu
-        tools:context=".FacilityActivity">
-
-        <item
-            android:id="@+id/my_triangle"
-            android:orderInCategory="100"
-            android:title="My Triangle"
-            android:layout_weight="1"
-            android:visible="true" />
-
-        <item android:id="@+id/facilities"
-            android:orderInCategory="100"
-            android:title="Facilities"
-            android:layout_weight="1"
-            android:visible="true" />
-
-        <item android:id="@+id/messages"
-            android:orderInCategory="100"
-            android:title="Messages"
-            android:showAsAction="always"
-            android:layout_weight="1"
-            android:visible="true" />
-
-        <item android:id="@+id/updates"
-            android:orderInCategory="100"
-            android:title="Updates"
-            android:layout_weight="1"
-            android:visible="true" />
-
-
-    </menu-->
-
 </android.support.v7.widget.Toolbar>

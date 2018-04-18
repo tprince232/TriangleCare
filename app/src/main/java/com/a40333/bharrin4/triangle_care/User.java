@@ -1,5 +1,7 @@
 package com.a40333.bharrin4.triangle_care;
 
+import com.a40333.bharrin4.triangle_care.objects.UserRole;
+
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Map;
@@ -15,6 +17,7 @@ public class User implements Serializable {
     public String password;
     public String phone;
     public String facility;
+    public UserRole role;
     public ArrayList<Update> hygieneUpdates;
 
     public User() {
@@ -54,6 +57,8 @@ public class User implements Serializable {
     public String getFacility() {
         return this.facility;
     }
+
+    public UserRole getRole() { return this.role; }
 
     public ArrayList<Update> getHygieneUpdates() {
         return this.hygieneUpdates;

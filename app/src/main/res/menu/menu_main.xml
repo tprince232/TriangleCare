@@ -7,19 +7,19 @@
     <item
         android:id="@+id/my_triangle"
         android:orderInCategory="100"
-        android:title="My Triangle"
+        android:title="My Triangle  "
         android:layout_weight="1"
         app:showAsAction="always"
         android:visible="true"
-        android:layout_gravity="left"/>
+        android:layout_width="wrap_content"/>
 
     <item android:id="@+id/facilities"
         android:orderInCategory="100"
-        android:title="Facilities"
+        android:title="        Facilities    "
         app:showAsAction="always"
         android:layout_weight="1"
         android:visible="true"
-        android:layout_gravity="center"/>
+        android:layout_width="wrap_content" />
 
     <!--item android:id="@+id/messages"
         android:orderInCategory="100"
@@ -30,10 +30,10 @@
 
     <item android:id="@+id/updates"
         android:orderInCategory="100"
-        android:title="Updates"
+        android:title="       Updates      "
         app:showAsAction="always"
         android:layout_weight="1"
         android:visible="true"
-        android:layout_gravity="right"/>
+        android:layout_width="wrap_content" />
 
 </menu>
